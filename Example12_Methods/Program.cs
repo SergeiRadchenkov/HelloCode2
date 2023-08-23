@@ -61,3 +61,17 @@ string Method4(int count, string text)
 
 string res = Method4(10, "asdf");
 Console.WriteLine(res);
+
+
+string Method41(int count, string text)
+{
+    string result = String.Empty;
+    for (int i = 0; i < count; i++ )
+    {
+        result = result + text;
+    }
+    return result;
+}
+
+string res2 = Method41(10, "z");
+Console.WriteLine(res2);
